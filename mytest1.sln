@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdll", "testdll\testdll.vcxproj", "{8DB87290-53D6-4A07-AFD1-3C22EB601805}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testexe", "testexe\testexe.vcxproj", "{1527C968-D779-4028-AA06-CDACFD04E552}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8DB87290-53D6-4A07-AFD1-3C22EB601805} = {8DB87290-53D6-4A07-AFD1-3C22EB601805}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB87290-53D6-4A07-AFD1-3C22EB601805}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DB87290-53D6-4A07-AFD1-3C22EB601805}.Debug|Win32.Build.0 = Debug|Win32
+		{8DB87290-53D6-4A07-AFD1-3C22EB601805}.Release|Win32.ActiveCfg = Release|Win32
+		{8DB87290-53D6-4A07-AFD1-3C22EB601805}.Release|Win32.Build.0 = Release|Win32
+		{1527C968-D779-4028-AA06-CDACFD04E552}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1527C968-D779-4028-AA06-CDACFD04E552}.Debug|Win32.Build.0 = Debug|Win32
+		{1527C968-D779-4028-AA06-CDACFD04E552}.Release|Win32.ActiveCfg = Release|Win32
+		{1527C968-D779-4028-AA06-CDACFD04E552}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
