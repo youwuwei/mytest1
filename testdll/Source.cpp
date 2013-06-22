@@ -9,6 +9,7 @@ MYHDR int Add11(int a, int b)
 
 MYHDR int Rec(int a)
 {
+	// jump
 	if (a > 4)
 	{
 		return a;
