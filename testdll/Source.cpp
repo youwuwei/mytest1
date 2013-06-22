@@ -3,6 +3,7 @@
 
 MYHDR int Add11(int a, int b)
 {
+	// add a and b
 	return a + b;
 }
 
